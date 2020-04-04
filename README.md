@@ -8,7 +8,7 @@ Non-original cables do not have this button.
 
 With an Arduino and a STX882 or similar ASK transmitter that costs a dollar or less on eBay, it is very easy to use this program to obtain the same functionality. You do not need an antenna, as the STX882 has long enough reach without one. This makes it a quite compact solution.
 
-It can be programmed on an ATtiny to make it fit into small places, or on any other type of Arduino. I use an Arduino Nano and added a microswitch to the charge plug wall holder so that the signal is sent when I pull the plug out of the holder, making it smooth to plug it into the car with the door already open. For this use I do not use a battery.
+It can be programmed on an ATtiny to make it fit into small places, or on any other type of Arduino. It uses only 1078 bytes of storage and 53 bytes of RAM. I use an Arduino Nano and added a microswitch to the charge plug wall holder so that the signal is sent when I pull the plug out of the holder, making it smooth to plug it into the car with the door already open. For this use I do not use a battery.
 
 Using a push button to power it on, it can be battery powered and last virtually forever.
 
