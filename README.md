@@ -22,6 +22,7 @@ Normally, a transmitter should not be used without an antenna, but I have used t
 
 The message that is sent has been grabbed by using an SRX882 receiver to pick up the data sent by a Tesla charging cable with built in push button. The signal will be sent 5 times repeatedly, just like the charge cable button does.
 
-The cable uses this signal to open the charge door when pushing the button while not being plugged in.
+The cable uses this signal to open the charge door when pushing the button while not being plugged in to the car. The car must be unlocked or you must be in bluetooth range with your paired phone.
+
 When plugged in, the button of the cable can unlock the cable from the car too. This is not done by RF but through wires in the cable, so this sketch will not unlock the cable when plugged in.
 
