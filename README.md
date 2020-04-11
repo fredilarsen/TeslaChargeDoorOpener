@@ -3,7 +3,7 @@ Open the Tesla charge door with an Arduino and an ASK STX882 transmitter
 
 ## Introduction
 
-The Tesla charging cables come with a button that can open the carge door of the car so that is is quicker to plug in.
+The Tesla charging cables come with a button that can open the charge door of the car so that is is quicker to plug in.
 Non-original cables do not have this button.
 
 With an Arduino and a STX882 or similar ASK transmitter that costs a dollar or less on eBay, it is very easy to use this program to obtain the same functionality. You do not need an antenna, as the STX882 has long enough reach without one. This makes it a quite compact solution.
