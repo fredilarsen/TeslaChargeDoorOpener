@@ -18,7 +18,7 @@ This sketch will when powered on send a radio signal that will open the charge d
 
 Pin 11 must be connected to the signal pin of an ASK STX882 433.92MHz transmitter that can be bought on eBay for a low price.
 
-Normally, a transmitter should not be used without an antenna, but I have used the STX882 without one without problems, and I will recommend doing so for this project to keep the range very short to avoid opening the charge door of other cars nearby. I take no responsibility for your hardware. Do remember that not using an antenna can destroy many types of transmitters.
+Normally, a transmitter should not be used without an antenna, but I have used the STX882 without one without problems for this project to keep the range very short to avoid opening the charge door of other cars nearby. The transmit times are so short it is unlikely to cause problems.
 
 The message that is sent has been grabbed by using an SRX882 receiver to pick up the data sent by a Tesla charging cable with built in push button. The signal will be sent 5 times repeatedly, just like the charge cable button does.
 
